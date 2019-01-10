@@ -1,6 +1,6 @@
 # dd-codeigniter
 this is dump and die helper for codeigniter 
-Save this to **application/helpers/** . We shall call it "dd.php"
+Save this to **application/helpers/** . We shall call it "dd_helper.php"
 
 The first line exists to make sure the file cannot be included and run from outside the CodeIgniter scope. Everything after this is self explanatory.
 
