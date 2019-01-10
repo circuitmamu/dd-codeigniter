@@ -6,9 +6,9 @@ The first line exists to make sure the file cannot be included and ran from outs
 
 # Using the Helper
 
-`$this->load->helper('new_helper');
-echo test_method('Hello World');`
+`$this->load->helper('dd');
+echo dd("data here");`
 
 If you use this helper in a lot of locations you can have it load automatically by adding it to the autoload configuration file i.e.` application\config\autoload.php`
 
-`$autoload['helper'] = array('new_helper');`
+`$autoload['helper'] = array('dd');`
